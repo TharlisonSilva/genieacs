@@ -1,0 +1,13 @@
+# --- banco de dados ---
+GENIEACS_MONGODB_CONNECTION_URL=mongodb://mongouser:mongopass@genieacs_mongo:27017/?tls=false
+
+# --- interfaces & portas ---
+GENIEACS_CWMP_PORT=7547
+GENIEACS_NBI_PORT=7557
+GENIEACS_FS_PORT=7567
+GENIEACS_UI_PORT=3000
+
+GENIEACS_UI_JWT_SECRET=7aK9pXqD1wL3NeVmR6YcB2sZf4HTu0jg
+
+# --- diretório de extensões ---
+GENIEACS_EXT_DIR=/opt/genieacs/ext
